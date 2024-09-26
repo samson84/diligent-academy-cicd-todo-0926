@@ -13,5 +13,6 @@ try {
     console.error(error.message);
   } else {
     console.error(error);
+    process.exit(1);
   }
 }
